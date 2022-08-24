@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+.activities-day .owl-nav .owl-prev i {
+    font-size: 30px !important;
+}
+.activities-day .owl-nav .owl-next i {
+    font-size: 30px !important;
+}
