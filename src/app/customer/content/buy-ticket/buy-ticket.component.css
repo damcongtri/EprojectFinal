@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+
+.banner {
+    position: relative;
+    background-image: url('https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/amusement-park-friends-enjoyment-lifestyle-concept-1.jpg');
+    /* background-image: linear-gradient(to right, rgba(227, 227, 100, 0.315) 10%, rgb(92, 92, 229) 70%); */
+    background-size: cover;
+    background-position: bottom;
+    height: 160px;
+}
+
+.ticket {
+    margin-top: 100px;
+}
+
+
+
+.banner span {
+    font-family: 'Rubik Dirt', cursive;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* font-family: 'Secular One', sans-serif; */
+    letter-spacing: 0.6px;
+}
+
+.header-content {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.header-content span {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header-content h1 {
+    padding: 16px 0;
+}
+
+.header-content p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.package-item {
+    background-color: bisque;
+    padding: 30px;
+
+}
+
+.package-item:first-child {
+    margin: -10px 0;
+}
+
+.premium {}
+
+.family,
+.basic {
+    padding: 20px;
+}
+
+.infor>div {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #92949c;
+}
+
+.infor i {
+    color: #ffd43b;
+    /* font-weight: 500; */
+    padding-right: 10px;
+    font-size: 16px;
+}
