@@ -19,7 +19,8 @@
         class="card-img"
         src="https://media.oceanpark.com.hk/ww/media/phgptb5q/op-homepage_banner_desktop-en.jpg"
         alt=""
-    /></ng-template>
+      />
+    </ng-template>
     <ng-template carouselSlide
       ><img
         class="card-img"
@@ -42,28 +43,39 @@
   <div class="buy-ticket">
     <div class="ticket-text">Get The Limited Offer Now!</div>
     <div class="ticket">
-      <a href="">BUY TICKETS</a>
+      <a href=""
+        >BUY <br />
+        TICKETS</a
+      >
     </div>
   </div>
 </div>
+
 <div class="togel">
   <a href=""><i class="fa-solid fa-bars"></i></a>
 </div>
 
-
-
-
-
-
 <!-- Discover water world -->
-<div class="content-water">
+<div class="content-water" style="width: 100%; height: auto">
   <div class="text-water">
-    <h3>Discover Water World</h3>
+    <p>Discover Water World</p>
+    <h3>
+      Asia's first all-weather,<br />
+      <span class="color">
+        year-round waterfront <br />
+        water park</span
+      >
+    </h3>
   </div>
+  <p class="title-water">
+    We look forward to hosting you in our secret world of water, and embark on
+    an exciting adventure in our five unique zones. <br />
+    Join us as we all splash into adventure!
+  </p>
   <div class="img-water">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 top">
           <div class="card-water">
             <img
               class="card-img img-content-top deg1 card-img"
@@ -79,14 +91,14 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 middle">
           <div class="card-water">
             <img
-              class="card-img-top card-img img-icon"
+              class="card-img-top card-img img-icon middle"
               src="https://media.oceanpark.com.hk/ww/media/2zsj2prv/cyclone-spin-tn.jpg"
               alt=""
             />
-            <div class="card-body text-icon">
+            <div class="card-body text-icon-middle">
               <h4 class="card-title">
                 Cyclone Spin <br />
                 Tropical Twist
@@ -98,14 +110,14 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 end">
           <div class="card-water">
             <img
               class="card-img-top deg2 card-img"
               src="https://media.oceanpark.com.hk/ww/media/35umttdt/whiskers-splash-tn.jpg"
               alt=""
             />
-            <div class="card-body text-icon  text-deg2">
+            <div class="card-body text-icon text-deg2">
               <h4 class="card-title">Whiskers' Splash</h4>
               <p class="presented">Presented by Monkey Tree</p>
               <p class="card-text">
@@ -118,10 +130,145 @@
       </div>
     </div>
   </div>
+  <div class="circular-water">
+    <a href=""> <h5>DISCOVER WATER WORLD</h5></a>
+  </div>
+</div>
+
+<!-- Introduce-water -->
+
+<div class="introduce">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row mt-5">
+          <div class="col-lg-6 mb-4">
+            <div class="translation">
+              <div class="actraction">
+                <i class="fa-solid fa-hotel"></i>
+                <h5>Hotel</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="translation">
+              <div class="actraction">
+                <i class="fa-solid fa-utensils"></i>
+                <h5>Delicious Food</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="translation">
+              <div class="actraction">
+                <img
+                  src="https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/slide.png"
+                  alt=""
+                  width="53px"
+                />
+                <h5>River Rides</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="translation">
+              <div class="actraction">
+                <i class="fa-solid fa-hotel"></i>
+                <h5>Hotel</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetuer adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calendar">
+          <div class="time-day">
+            <div class="day">
+              <p>Monday - Friday</p>
+            </div>
+            <div class="time">
+              <span class="text-color"
+                ><i class="fa-solid fa-clock"></i> 11:00 AM - 16:00 PM</span
+              >
+            </div>
+          </div>
+          <div class="time-day">
+            <div class="day">
+              <p>Monday - Friday</p>
+            </div>
+            <div class="time">
+              <span class="text-color"
+                ><i class="fa-solid fa-clock"></i> 11:00 AM - 16:00 PM</span
+              >
+            </div>
+          </div>
+          <div class="time-day">
+            <div class="day">
+              <p>Monday - Friday</p>
+            </div>
+            <div class="time">
+              <span class="text-color"
+                ><i class="fa-solid fa-clock"></i> 11:00 AM - 16:00 PM</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="day-img">
+          <owl-carousel-o [options]="customOptions3">
+            <ng-template carouselSlide
+              ><img
+                class="card-img"
+                src="https://ak-d.tripcdn.com/images/0301l120009qimzqeBC39.jpg?proc=source%2Ftrip"
+                style="height: 101vh"
+                alt=""
+              />
+            </ng-template>
+            <ng-template carouselSlide
+              ><img
+                class="card-img"
+                src="https://owa.bestprice.vn/images/articles/uploads/goi-y-15-quan-an-ngon-va-re-o-phu-quoc-5e9c63b06b16a.jpg"
+                style="height: 101vh"
+                alt=""
+            /></ng-template>
+            <ng-template carouselSlide
+              ><img
+                class="card-img"
+                src="https://du-lich.chudu24.com/f/m/1606/23/khach-san-golden-sea-3-da-nang-5.jpg"
+                style="height: 101vh"
+                alt=""
+            /></ng-template>
+            <ng-template carouselSlide
+              ><img
+                class="card-img"
+                src="https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/elementor/thumbs/force-field-e1628827096950-pbjdq7m5d53cshch0fqcclq17fuo353ivgiaxpis5s.jpg"
+                alt=""
+            /></ng-template>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Fun for day -->
-<div class="activities">
+<!-- <div class="activities">
   <div class="fun-text">
     <h3>Fun For Day</h3>
   </div>
@@ -169,13 +316,12 @@
   
 </ng-template>
   </owl-carousel-o>
-</div>
-
+</div>  -->
 
 <!-- event -->
 <div class="event">
   <div class="event-text">
-    <h3>Events</h3>
+    <h3>special event</h3>
   </div>
   <div class="event-content">
     <div class="container">
@@ -185,67 +331,89 @@
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="https://smiletravel.com.vn/wp-content/uploads/2020/04/sai-gon-cong-vien-suoi-tien.jpg" alt="Paris" style="width:100%;height:200px">
+                  <img
+                    src="https://static.enjoytokyo.jp/assets/images/spot/a8/l_00002898/img_1.jpg?1650608358"
+                    alt="Paris"
+                    class="img-event"
+                  />
                 </div>
                 <div class="flip-box-back">
-                  <h2>Paris</h2>
-                  <p>What an amazing city</p>
+                  <h4 class="card-title">Dancing dolphins</h4>
+                  <p>
+                    The Maxell Aqua Park Shinagawa, located at the Shinagawa
+                    Prince Hotel, is one of Tokyo's most modern aquariums.
+                    Coming here, you will discover a sea life full of vivid and
+                    colorful colors. Marvel at the Jelly Ramble jellyfish tanks
+                    to see a variety of jellyfish of different colors and sizes
+                    floating in LED lights and fun music.
+                  </p>
+                  <a href="">
+                    <p class="card-text">
+                      Read more<i class="fa-solid fa-arrow-right"></i></p
+                  ></a>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <h4 class="card-title">Title</h4>
-              <p class="card-text">Text</p>
-            </div>
           </div>
         </div>
-
-
         <div class="col-lg-4">
           <div class="card">
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="https://smiletravel.com.vn/wp-content/uploads/2020/04/sai-gon-cong-vien-suoi-tien.jpg" alt="Paris" style="width:100%;height:200px">
+                  <img
+                    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/b2/16.jpg"
+                    alt="Paris"
+                    class="img-event"
+                  />
                 </div>
                 <div class="flip-box-back">
-                  <h2>Paris</h2>
-                  <p>What an amazing city</p>
+                  <h4 class="card-title">Maxell Aqua Park Shinagawa</h4>
+                  <p>
+                    In summer, the park offers 5 pools and 3 waterslides. They
+                    have a large swimming pool, a five meter deep diving pool, a
+                    kid pool, and a lazy river. Various shows, including
+                    synchronized swimming performances, are also held here
+                    during the summer months.
+                  </p>
+                  <a href="">
+                    <p class="card-text">
+                      Read more<i class="fa-solid fa-arrow-right"></i></p
+                  ></a>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <h4 class="card-title">Title</h4>
-              <p class="card-text">Text</p>
-            </div>
           </div>
         </div>
-
-
         <div class="col-lg-4">
           <div class="card">
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="https://smiletravel.com.vn/wp-content/uploads/2020/04/sai-gon-cong-vien-suoi-tien.jpg" alt="Paris" style="width:100%;height:200px">
+                  <img
+                    src="https://a.cdn-hotels.com/gdcs/production93/d833/290b742e-8086-4dd0-96db-9311f80a50e9.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+                    alt="Paris"
+                    class="img-event"
+                  />
                 </div>
                 <div class="flip-box-back">
-                  <h2>Paris</h2>
-                  <p>What an amazing city</p>
+                  <h4 class="card-title">Grant Park's Watery Artwork</h4>
+                  <p>
+                    A sea bar lit up in starry brilliance. Enjoy a seasonal
+                    Christmas drink while viewing the surrounding aquarium in
+                    atmospheric lights. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laboriosam alias, id dicta, exercitationem
+                    ipsum deleniti asperiores harum. Laboriosam alias, id dicta.
+                  </p>
+                  <a href="">
+                    <p class="card-text">
+                      Read more<i class="fa-solid fa-arrow-right"></i></p
+                  ></a>
                 </div>
               </div>
             </div>
-
-            <div class="card-body">
-              <h4 class="card-title">Title</h4>
-              <p class="card-text">Text</p>
-            </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>

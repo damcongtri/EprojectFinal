@@ -16,22 +16,25 @@
   height: 100vh;
   overflow: hidden;
 }
+/*  */
 
 .buy-ticket {
   align-items: center;
   display: flex;
-  height: 100px;
+  position: fixed;
+  height: 140px;
   max-width: 100%;
-  padding: 10px;
+  padding: 20px;
   position: absolute;
-  width: 580px;
+  width: 700px;
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 100px;
-  bottom: 70px;
+  bottom: 23px;
   left: 50%;
   transform: translateX(-50%);
   border: 4px solid #fff;
+  z-index: 100;
 }
 
 .ticket-text {
@@ -54,8 +57,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  width: 100px;
+  height: 105px;
+  width: 105px;
   background-color: yellow;
   border-radius: 50%;
   text-align: center;
@@ -63,11 +66,151 @@
 
 
 }
+.ticket a {
+  font-weight: bold;
+  font-style: italic;
+}
 
 .banner-item {
   height: 100vh;
 
 }
+@media screen and (max-width:1025px) {
+  .buy-ticket {
+    width: 500px;
+    height: 100px;
+  }
+  .ticket {
+    width: 100px;
+    height: 70px;
+  
+  }
+  .ticket a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .buy-ticket {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    width: 500px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    bottom: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+  }
+  
+  .ticket-text {
+    font-size: 20px;
+  }
+  .ticket {
+    width: 80px;
+    height: 80px;
+  
+  }
+  .ticket a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:426px) {
+  .buy-ticket {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    width: 300px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    bottom: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+  }
+  .ticket-text {
+    font-size: 10px;
+  }
+  .ticket {
+    width: 65px;
+    height: 50px;
+  
+  }
+  .ticket a {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:376px) {
+  .buy-ticket {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    width: 300px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+  }
+  .buy-ticket .ticket-text {
+    font-size: 10px;
+  }
+  .ticket {
+    height: 50px;
+    width: 70px;
+
+  }
+  .ticket a {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:321px) {
+  .buy-ticket {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    width:270px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+  }
+  .ticket-text {
+    font-size: 10px;
+  }
+  .ticket {
+    width: 60px;
+    height: 40px;
+  
+  }
+  .ticket a {
+    font-size: 7px;
+  }
+}
+
+
+
 
 @media screen and (min-width:1020px) {
   .togel {
@@ -93,35 +236,50 @@
     color: #000;
   }
 
+  @media screen and (max-width:426px) {
+    .togel {
+      position: absolute;
+      bottom: 170px;
+      z-index: 100000;
+      font-size: 25px;
+      color: #fff;
+  
+    }
+  }
+
 }
 
-@media screen and (max-width:768px) {
-  .card-img {
-    width: auto;
-    height: 80vh;
-  }
+@media screen and (max-width:769px) {
+  
+ .card-img {
+  
+  height: 100vh;
+  width: auto;
+ }
+ 
 }
 
 @media screen and (max-width:426px) {
   .card-img {
     width: auto;
-    height: 50vh;
+    height: 60vh;
   }
 }
 
-@media screen and (max-width:376px) {
+ @media screen and (max-width:376px) {
   .card-img {
     width: auto;
-    height: 40vh;
+    height: 53vh;
   }
-}
+} 
 
 @media screen and (max-width:321px) {
   .card-img {
     width: auto;
-    height: 35vh;
+    height: 45vh;
   }
-}
+} 
+
 
 
 .card-water .deg2 {
@@ -133,9 +291,11 @@
 .card-water {
   padding: 15px;
   position: relative;
+  transform: scale3d(1.1);
 }
 .img-icon {
    vertical-align: text-top;
+   transform: translateY(-40px);
 }
 .card-img-top {
   box-shadow: 0px 0px 10px 0px rgb(0, 132, 255);
@@ -144,19 +304,46 @@
 }
 .text-water h3 {
   text-align: center;
-  font-size: 40px;
-  margin-top: 40px;
+  font-size: 60px;
+  margin-top: 20px;
   color: #1895bc;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   
+  
 
+}
+.title-water {
+  text-align: center;
+  color: #253b56;
+  font-size: 20px;
+}
+.text-water p {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  color: #253b56;
+  margin-top: 30px;
+}
+
+.color {
+  color: #0167b8;
 }
 .text-icon {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   color: #fff;
+  font-weight: bold;
 }
+
+.text-icon-middle {
+  position: absolute;
+  bottom: 60px;
+  color: #fff;
+  font-weight: bold;
+}
+
 .text-deg1 {
   transform: rotate(-10deg);
   position: absolute;
@@ -190,9 +377,9 @@
   box-shadow: 0px 0px 10px 0px rgb(0 132 255);
 }
 @media screen and (max-width:768px) {
-  .deg1  {
+  /* .deg1  {
   width:200px;
-  }
+  } */
 }
 
 
@@ -249,6 +436,135 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 }
-.content-water {
-  /* background-image: url(''); */
+@media screen and (max-width:768px) {
+  .top,.end {
+    display: none;
+  }
+  .middle{
+    width: 100%;
+    height: auto;
+  }
+}
+.circular-water {
+  text-align: center;
+  background-color: #ff840a;
+  width: 370px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 40px;
+ 
+  
+}
+.circular-water h5 {
+  line-height: 70px;
+  color: #fff;
+}
+.circular-water:hover {
+  background-color: #ff550a;
+}
+.circular-water a {
+  text-decoration: none;
+}
+.translation {
+  display: flex;
+  text-align: center;
+  background-color: #e1f6f9;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  align-items: center;
+}
+.actraction .fa-hotel {
+  font-size: 50px;
+  color:#11c5dd; 
+}
+.fa-utensils {
+  font-size: 50px;
+  color:#11c5dd; 
+}
+
+.actraction h5 {
+  font-size:28px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 17px;
+
+}
+.actraction p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -7px;
+  color:#5f707f;
+}
+.time-day {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F3F3F3;
+  align-items: center;
+}
+.time-day .day {
+  margin-top: 15px;
+  align-items: center;
+}
+span .fa-clock {
+  color: #11c5dd;
+}
+.text-color {
+  color: #7d8f9e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.day p {
+  color: #01173c;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+.day-img .card-img{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+}
+.introduce {
+  margin-top: 50px;
+}
+.img-event {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.flip-box-back {
+  height: 250px;
+  border-radius: 10px;
+}
+.flip-box-front {
+  border-radius: 10px;
+}
+.text-event {
+  margin-top: 30px
+}
+.event-text h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px
+}
+.flip-box-back a {
+  text-decoration: none;
+}
+.flip-box-back h4 {
+  margin-bottom: 20px;
+}
+.flip-box-back {
+  background-color: #DAEAF1;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+.flip-box-back .card-text {
+  color: #F15412;
+  font-weight: bold;
+  
+}
+.card-text .fa-arrow-right {
+  margin-left: 10px;
+}
+.flip-box-back .card-title {
+  margin-top: 10px;
 }

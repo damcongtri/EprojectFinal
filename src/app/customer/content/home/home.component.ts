@@ -45,11 +45,44 @@ export class HomeComponent implements OnInit {
         items: 2
       },
       940: {
-        items: 4
+        items: 2
+      },
+      1023: {
+        items:3 
+      },
+      1200: {
+        items:4
       }
     },
     nav: true,
   }
+
+  customOptions3: OwlOptions = {
+    loop: true,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 1
+      },
+      740: {
+        items: 1
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: false  ,
+    
+  }
+
+
+  
 
   constructor() { }
 
