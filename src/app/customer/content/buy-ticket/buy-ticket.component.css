@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
 
 .banner {
     position: relative;
@@ -13,7 +13,9 @@
     margin-top: 100px;
 }
 
-
+.content-ticket {
+    font-family: 'Quicksand', sans-serif;
+}
 
 .banner span {
     font-family: 'Rubik Dirt', cursive;
@@ -52,16 +54,36 @@
 }
 
 .package-item {
-    background-color: bisque;
-    padding: 30px;
-
+    padding: 40px;
 }
 
 .package-item:first-child {
+    background-color: #191B27;
     margin: -10px 0;
+    color: #fff;
 }
 
-.premium {}
+.package-item:nth-child(2) {
+    box-shadow: 0px 3px 15px 0px rgb(0 0 0 / 10%);
+}
+
+.price span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffd43b;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.infor {
+    margin-top: 40px;
+}
+
+.premium {
+    padding: 20px;
+}
 
 .family,
 .basic {
@@ -79,4 +101,11 @@
     /* font-weight: 500; */
     padding-right: 10px;
     font-size: 16px;
+}
+
+.btn-book {
+    margin-top: 50px !important;
+    font-weight: 500;
+    border-radius: 0;
+    padding: 10px 0;
 }
