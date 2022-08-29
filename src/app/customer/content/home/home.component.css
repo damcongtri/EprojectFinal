@@ -2,12 +2,6 @@
   z-index: 100;
 }
 
-.card-img {
-  width: 100%;
-  max-height: auto;
-  /* height: 100vh; */
-}
-
 /* .card-video{
     width: 100%;
 } */
@@ -16,6 +10,7 @@
   height: 100vh;
   overflow: hidden;
 }
+
 /*  */
 
 .buy-ticket {
@@ -66,6 +61,7 @@
 
 
 }
+
 .ticket a {
   font-weight: bold;
   font-style: italic;
@@ -75,16 +71,23 @@
   height: 100vh;
 
 }
+
+.banner video {
+  width: 100%;
+}
+
 @media screen and (max-width:1025px) {
   .buy-ticket {
     width: 500px;
     height: 100px;
   }
+
   .ticket {
     width: 100px;
     height: 70px;
-  
+
   }
+
   .ticket a {
     font-size: 10px;
   }
@@ -107,19 +110,22 @@
     transform: translateX(-50%);
     border: 4px solid #fff;
   }
-  
+
   .ticket-text {
     font-size: 20px;
   }
+
   .ticket {
     width: 80px;
     height: 80px;
-  
+
   }
+
   .ticket a {
     font-size: 12px;
   }
 }
+
 @media screen and (max-width:426px) {
   .buy-ticket {
     align-items: center;
@@ -132,23 +138,31 @@
     z-index: 3;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 100px;
-    bottom: 190px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     border: 4px solid #fff;
   }
+
   .ticket-text {
     font-size: 10px;
   }
+
   .ticket {
     width: 65px;
     height: 50px;
-  
+
   }
+
   .ticket a {
     font-size: 8px;
   }
+
+  .text-water h3 {
+    font-size: 18px;
+  }
 }
+
 @media screen and (max-width:376px) {
   .buy-ticket {
     align-items: center;
@@ -166,14 +180,17 @@
     transform: translateX(-50%);
     border: 4px solid #fff;
   }
+
   .buy-ticket .ticket-text {
     font-size: 10px;
   }
+
   .ticket {
     height: 50px;
     width: 70px;
 
   }
+
   .ticket a {
     font-size: 9px;
   }
@@ -187,7 +204,7 @@
     max-width: 100%;
     padding: 20px;
     position: absolute;
-    width:270px;
+    width: 270px;
     z-index: 3;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 100px;
@@ -196,14 +213,17 @@
     transform: translateX(-50%);
     border: 4px solid #fff;
   }
+
   .ticket-text {
     font-size: 10px;
   }
+
   .ticket {
     width: 60px;
     height: 40px;
-  
+
   }
+
   .ticket a {
     font-size: 7px;
   }
@@ -243,67 +263,47 @@
       z-index: 100000;
       font-size: 25px;
       color: #fff;
-  
+
     }
   }
 
 }
 
-@media screen and (max-width:769px) {
-  
- .card-img {
-  
-  height: 100vh;
-  width: auto;
- }
- 
-}
+@media screen and (max-width:769px) {}
 
-@media screen and (max-width:426px) {
-  .card-img {
-    width: auto;
-    height: 60vh;
-  }
-}
+@media screen and (max-width:426px) {}
 
- @media screen and (max-width:376px) {
-  .card-img {
-    width: auto;
-    height: 53vh;
-  }
-} 
+@media screen and (max-width:376px) {}
 
-@media screen and (max-width:321px) {
-  .card-img {
-    width: auto;
-    height: 50vh;
-  }
-} .banner {
-  height:auto;
-}
+@media screen and (max-width:321px) {}
 
 
 
 .card-water .deg2 {
   transform: rotate(10deg);
 }
+
 .card-water .deg1 {
   transform: rotate(-10deg);
 }
+
 .card-water {
   padding: 15px;
   position: relative;
   transform: scale3d(1.1);
 }
+
 .img-icon {
-   vertical-align: text-top;
-   transform: translateY(-40px);
+  vertical-align: text-top;
+  transform: translateY(-40px);
 }
+
 .card-img-top {
   box-shadow: 0px 0px 10px 0px rgb(0, 132, 255);
   border-radius: 10px;
- 
+
 }
+
 .text-water h3 {
   text-align: center;
   font-size: 60px;
@@ -311,15 +311,17 @@
   color: #1895bc;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  
-  
+
+
 
 }
+
 .title-water {
   text-align: center;
   color: #253b56;
   font-size: 20px;
 }
+
 .text-water p {
   text-align: center;
   color: #000;
@@ -332,6 +334,7 @@
 .color {
   color: #0167b8;
 }
+
 .text-icon {
   position: absolute;
   bottom: 30px;
@@ -351,20 +354,24 @@
   position: absolute;
   left: 50px;
 }
-.text-deg2{
+
+.text-deg2 {
   transform: rotate(13deg);
   position: absolute;
   left: -15px;
 }
+
 .img-water {
   margin-top: 100px;
 }
+
 .slide .img-content {
-  max-width:100% ;
+  max-width: 100%;
   height: 37vh;
-  border-radius:  20px;
+  border-radius: 20px;
   padding: 10px;
 }
+
 .fun-text h3 {
   text-align: center;
   font-size: 40px;
@@ -374,14 +381,25 @@
   margin-top: 30px;
   margin-bottom: 50px;
 }
+
 .deg1 {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgb(0 132 255);
 }
+
 @media screen and (max-width:768px) {
+
   /* .deg1  {
   width:200px;
   } */
+  .text-water h3 {
+    font-size: 35px;
+  }
+
+  .title-water {
+    font-size: 18px;
+    padding: 0 50px;
+  }
 }
 
 
@@ -406,7 +424,8 @@
   transform: rotateY(180deg);
 }
 
-.flip-box-front, .flip-box-back {
+.flip-box-front,
+.flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -423,12 +442,15 @@
   color: white;
   transform: rotateY(180deg);
 }
+
 .card {
   border: none;
 }
+
 .card-img-top {
   border: none;
 }
+
 .event-text h3 {
   text-align: center;
   font-size: 40px;
@@ -437,35 +459,44 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 }
+
 @media screen and (max-width:768px) {
-  .top,.end {
+
+  .top,
+  .end {
     display: none;
   }
-  .middle{
+
+  .middle {
     width: 100%;
     height: auto;
   }
 }
+
 .circular-water {
   text-align: center;
   background-color: #ff840a;
-  width: 370px;
+  width: 300px;
+  max-width: 100%;
   height: 70px;
   margin: 0 auto;
   border-radius: 40px;
- 
-  
 }
+
 .circular-water h5 {
+  font-size: 15px;
   line-height: 70px;
   color: #fff;
 }
+
 .circular-water:hover {
   background-color: #ff550a;
 }
+
 .circular-water a {
   text-decoration: none;
 }
+
 .translation {
   display: flex;
   text-align: center;
@@ -475,136 +506,173 @@
   padding: 50px;
   align-items: center;
 }
+
 .actraction .fa-hotel {
   font-size: 50px;
-  color:#11c5dd; 
+  color: #11c5dd;
 }
+
 .fa-utensils {
   font-size: 50px;
-  color:#11c5dd; 
+  color: #11c5dd;
 }
 
 .actraction h5 {
-  font-size:28px;
+  font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 17px;
 
 }
+
 .actraction p {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -7px;
-  color:#5f707f;
+  color: #5f707f;
 }
+
 .time-day {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #F3F3F3;
   align-items: center;
 }
+
 .time-day .day {
   margin-top: 15px;
   align-items: center;
 }
+
 span .fa-clock {
   color: #11c5dd;
 }
+
 .text-color {
   color: #7d8f9e;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .day p {
   color: #01173c;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 17px;
   font-weight: bold;
-  
+
 }
-.day-img .card-img{
+
+.day-img .card-img {
   width: 100%;
   height: auto;
   padding: 30px;
   margin-top: 20px;
 }
+
 .introduce {
   margin-top: 50px;
 }
+
 .img-event {
   width: 100%;
   height: 250px;
   border-radius: 10px;
 }
+
 .flip-box-back {
   height: 250px;
   border-radius: 10px;
 }
+
 .flip-box-front {
   border-radius: 10px;
 }
+
 .text-event {
   margin-top: 30px
 }
+
 .event-text h3 {
   text-transform: uppercase;
   margin-bottom: 30px
 }
+
 .flip-box-back a {
   text-decoration: none;
 }
+
 .flip-box-back h4 {
   margin-bottom: 20px;
 }
+
 .flip-box-back {
   background-color: #DAEAF1;
   color: #000;
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .flip-box-back .card-text {
   color: #F15412;
   font-weight: bold;
-  
+
 }
+
 .card-text .fa-arrow-right {
   margin-left: 10px;
 }
+
 .flip-box-back .card-title {
   margin-top: 10px;
 }
+
 .card-img1 {
   width: 100%;
   height: 800px;
   padding: 0px 20px 50px 20px;
 }
+
 .margin {
- margin-bottom: 24px;
+  margin-bottom: 24px;
 }
+
 @media screen and (max-width:1024px) {
   .actraction h5 {
     font-size: 17px;
   }
+
   .flip-box-back {
     font-size: 13px;
   }
+
   .flip-box-font {
     top: 50px;
-  } 
+  }
 }
+
 @media screen and (max-width:769px) {
   .flip-box-front {
     top: 100px;
-  } 
+  }
 }
+
 @media screen and (max-width:993px) {
   .flip-box-front {
     top: 50px;
-  } 
-  .card {
-    background-color: none
-    ;
   }
+
+  .card {
+    background-color: none;
+  }
+
   .flip-box {
     height: 300px;
   }
-.top, .end {
-  display: none;
+
+  .top,
+  .end {
+    display: none;
+  }
 }
+
+@media screen and (max-width :450px) {
+  .banner {
+    height: auto;
+  }
 }
