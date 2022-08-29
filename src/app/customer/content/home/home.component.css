@@ -276,9 +276,11 @@
 @media screen and (max-width:321px) {
   .card-img {
     width: auto;
-    height: 45vh;
+    height: 50vh;
   }
-} 
+} .banner {
+  height:auto;
+}
 
 
 
@@ -413,7 +415,6 @@
 }
 
 .flip-box-front {
-  background-color: #bbb;
   color: black;
 }
 
@@ -567,4 +568,43 @@ span .fa-clock {
 }
 .flip-box-back .card-title {
   margin-top: 10px;
+}
+.card-img1 {
+  width: 100%;
+  height: 800px;
+  padding: 0px 20px 50px 20px;
+}
+.margin {
+ margin-bottom: 24px;
+}
+@media screen and (max-width:1024px) {
+  .actraction h5 {
+    font-size: 17px;
+  }
+  .flip-box-back {
+    font-size: 13px;
+  }
+  .flip-box-font {
+    top: 50px;
+  } 
+}
+@media screen and (max-width:769px) {
+  .flip-box-front {
+    top: 100px;
+  } 
+}
+@media screen and (max-width:993px) {
+  .flip-box-front {
+    top: 50px;
+  } 
+  .card {
+    background-color: none
+    ;
+  }
+  .flip-box {
+    height: 300px;
+  }
+.top, .end {
+  display: none;
+}
 }
