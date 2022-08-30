@@ -88,6 +88,10 @@ p {
     color: #000;
 }
 
+.show-nav {
+    display: block !important;
+}
+
 /* responsive header */
 @media screen and (max-width: 1020px) {
     .main-nav {
@@ -117,19 +121,40 @@ p {
     }
 
     .nav-mobile {
-        display: block;
+        display: none;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 4;
+        width: 300px;
+        max-width: 100%;
     }
 
-    .nav {
+    .nav-mb2 {
         position: relative;
+        height: 100vh;
+        min-height: auto;
 
     }
 
-    .nav::after {
+    .nav-mb2::before {
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.32);
+        top: 0;
+        left: 0;
+        z-index: -3;
+
+    }
+
+    .nav-mb2 ul {
+        overflow: auto;
+        height: 100%;
+    }
+
+    .nav-mb2::after {
         content: "";
         top: 0;
         left: 0;
@@ -144,6 +169,19 @@ p {
         padding: 0;
     }
 
+    .logo-mobile {
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .logo-mobile i:hover {
+        color: #ffc107;
+        cursor: pointer;
+    }
+
+    .logo-mobile img {
+        padding: 10px 0;
+    }
 }
 
 @media screen and (min-width:1020px) {
@@ -152,6 +190,9 @@ p {
 
     }
 
+    .logo-mobile {
+        display: none !important;
+    }
 
 
 
