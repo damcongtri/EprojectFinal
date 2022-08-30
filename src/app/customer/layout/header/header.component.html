@@ -1,12 +1,19 @@
 <div style="position: relative; width: 100%;">
     <div class="header align-items-center">
 
-        <div class="logo">
+        <div class="">
             <img src="https://keansburgamusementpark.com/wp-content/uploads/2015/02/kap_logo.png" width="100px" alt="">
         </div>
 
         <div class="main-nav nav-mobile">
-            <div class="nav">
+            <div class="nav-mb2">
+                <div class="logo-mobile d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <img src="https://keansburgamusementpark.com/wp-content/uploads/2015/02/kap_logo.png"
+                            width="100px" alt="">
+                    </div>
+                    <i class="fa-solid fa-xmark" id="close" (click)="shownav()"></i>
+                </div>
                 <ul>
                     <li>
                         <a href="">Home</a>
@@ -38,8 +45,8 @@
             </div>
 
         </div>
-        <div class="togel">
-            <a href=""><i class="fa-solid fa-bars"></i></a>
+        <div class="togel" (click)="shownav()">
+            <a><i class="fa-solid fa-bars"></i></a>
         </div>
     </div>
 </div>
