@@ -9,6 +9,7 @@ import { DetailComponent } from './content/detail/detail.component';
 import { CustomerComponent } from './customer.component';
 import { AttractionsComponent } from './content/attractions/attractions.component';
 import { BuyTicketComponent } from './content/buy-ticket/buy-ticket.component';
+import { FoodComponent } from './content/food/food.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BuyTicketComponent } from './content/buy-ticket/buy-ticket.component';
     DetailComponent,
     CustomerComponent,
     AttractionsComponent,
-    BuyTicketComponent
+    BuyTicketComponent,
+    FoodComponent
   ],
 
   imports: [

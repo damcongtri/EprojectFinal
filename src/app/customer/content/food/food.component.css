@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+
+.banner {
+    position: relative;
+    background-image: url('http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/06/background-pizza-home-top.jpg');
+    /* background-image: linear-gradient(to right, rgba(227, 227, 100, 0.315) 10%, rgb(92, 92, 229) 70%); */
+    background-size: cover;
+    background-position: bottom;
+    height: 160px;
+}
+
+.ticket {
+    margin-top: 100px;
+}
+
+.content-ticket {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner span {
+    text-transform: capitalize;
+    font-family: 'Rubik Dirt', cursive;
+    /* background-color: rgba(0, 0, 0, 0.381); */
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* font-family: 'Secular One', sans-serif; */
+    letter-spacing: 0.6px;
+}
+
+.product {
+    border: none;
+}
+
+.text-content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.381); */
+    color: #fff;
+    padding: 0;
+    z-index: 1;
+}
+
+.text-product {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: hidden;
+
+}
+
+.text-product h4,
+.text-product p {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.text-product::after {
+    bottom: -200%;
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    z-index: -1;
+    border-radius: 100% 100% 0 0;
+    background-color: rgba(0, 0, 0, 0.381);
+    transition: 0.5s;
+}
+
+.product:hover .text-product::after {
+    bottom: 0;
+}
+
+.product:hover .text-product h4,
+.product:hover .text-product p {
+    opacity: 1;
+}
+
+.product {
+    overflow: hidden;
+
+}
+
+.food-item {
+    margin-bottom: 20px;
+}
+
+.product img {
+    transition: 0.5s;
+}
+
+.product:hover img {
+    transform: scale(1.05);
+}
+
+.content {
+    margin-top: 80px;
+}
