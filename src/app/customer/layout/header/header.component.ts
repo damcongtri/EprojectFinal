@@ -10,6 +10,13 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    window.addEventListener('scroll', () => {
+      if (document.documentElement.scrollTop > 100) {
+        document.querySelector('.header')?.classList.add('bg-header')
+      } else {
+        document.querySelector('.header')?.classList.remove('bg-header')
+      }
+    })
   }
 
 }
