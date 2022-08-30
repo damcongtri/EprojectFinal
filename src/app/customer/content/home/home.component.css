@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Secular+One&display=swap');
 .owl-prev {
   z-index: 100;
 }
@@ -8,7 +8,7 @@
 } */
 .banner {
   position: relative;
-  height: 100vh;
+  height: 56vw;
   overflow: hidden;
 }
 
@@ -48,6 +48,9 @@
   top: 30px;
   right: 20px
 }
+.img-banner{
+  height: 56vw;
+}
 
 .ticket {
   display: flex;
@@ -59,8 +62,6 @@
   border-radius: 50%;
   text-align: center;
   margin-left: 70px;
-
-
 }
 
 .ticket a {
@@ -161,6 +162,7 @@
 
   .text-water h3 {
     font-size: 18px;
+    font-family: 'Secular One', sans-serif ;
   }
 }
 
@@ -310,7 +312,7 @@
   font-size: 60px;
   margin-top: 20px;
   color: #1895bc;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Secular One', sans-serif;
   font-weight: bold;
 
 
@@ -334,6 +336,7 @@
 
 .color {
   color: #0167b8;
+  font-family: 'Secular One', sans-serif;
 }
 
 .text-icon {
@@ -378,7 +381,7 @@
   font-size: 40px;
   font-weight: bold;
   color: #1895bc;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Secular One', sans-serif;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -537,6 +540,7 @@
   justify-content: space-between;
   border-bottom: 1px solid #F3F3F3;
   align-items: center;
+  font-family: 'Secular One', sans-serif;
 }
 
 .time-day .day {
@@ -592,8 +596,8 @@ span .fa-clock {
 }
 
 .event-text h3 {
-  text-transform: uppercase;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  font-family: 'Secular One', sans-serif;
 }
 
 .flip-box-back a {
@@ -755,5 +759,7 @@ span .fa-clock {
   }
 }
 
-
+p , span {
+  font-family: 'Open Sans', sans-serif;
+}
 

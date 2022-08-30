@@ -251,5 +251,31 @@ label input[type="checkbox"] {
   position: relative;
 }
 
+@media screen and (max-width:376px) {
+  .box label span {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #464d64;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 125.5%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:326px) {
+  .box label span {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #464d64;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 150.5%;
+    max-width: 100%;
+  }
+}
 
 
