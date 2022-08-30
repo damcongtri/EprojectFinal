@@ -14,9 +14,9 @@ body, html {
     margin: 0;
   }
   #particles-js {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 900px;
    /* background-image: url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp'); */
    background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp') top center / cover no-repeat;
   }
@@ -75,6 +75,7 @@ body, html {
   border-radius: 5px;
   padding: 14px 10px;
   width: 320px;
+  max-width: 100%;
   outline: none;
   color: #d6d6d6;
   -webkit-transition: all 0.2s ease-out;
@@ -115,6 +116,7 @@ label input[type="checkbox"] {
   position: relative;
   cursor: pointer;
   left: 55.5%;
+  max-width: 100%;
 }
 
 .btn1 {
@@ -123,6 +125,7 @@ label input[type="checkbox"] {
   color: #dfdeee;
   border-radius: 100px;
   width: 340px;
+  max-width: 100%;
   height: 49px;
   font-size: 16px;
   transition: 0.3s;
@@ -164,16 +167,19 @@ label input[type="checkbox"] {
 
 .typcn {
   position: absolute;
-  left: 350px;
-  top: 240px;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+
   color: #3b476b;
   font-size: 16px;
   cursor: pointer;
 }
 .typcn2 {
+   top: 50%;
+   right: 80px;
+   transform: translateY(-50%);
     position: absolute;
-    left: 350px;
-    top: 310px;
     color: #3b476b;
     font-size: 16px;
     cursor: pointer;
@@ -204,6 +210,7 @@ label input[type="checkbox"] {
   left: 7.2%;
   color: white;
   display: none;
+  max-width: 100%;
 }
 
 .footer {
@@ -231,9 +238,44 @@ label input[type="checkbox"] {
   border-top: 10px solid #79a6fe;
   border-bottom: 10px solid #8bd17c;
   width: 450px;
-  height: 550px;
+  height: auto;
   box-shadow: 1px 1px 108.8px 19.2px rgb(25, 31, 53);
   margin-top: 80px;
+  padding: 30px 0px;
+  max-width: 100%;
   
 }
+.eye-pass {
+  position: relative;
+}
+.eye-pass2 {
+  position: relative;
+}
+@media screen and (max-width:376px) {
+  .box label span {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #464d64;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 125.5%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:326px) {
+  .box label span {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #464d64;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 150.5%;
+    max-width: 100%;
+  }
+}
+
 

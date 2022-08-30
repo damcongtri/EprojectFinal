@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -6,7 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
+  FormValidate:any = new FormGroup ({
+    email:new FormControl('', [Validators.required , Validators.email]),
+    password: new FormControl('',[Validators.required, Validators.minLength(8)]),
+    ConfirmPassword: new FormControl('',[Validators.required, Validators.minLength(8)])
+  })
 
+  get f():any{
+    return this.FormValidate.controls;
+  }
+
+  onSubmit(){
+    if(!this.FormValidate.invalid){
+
+    }
+  }
   constructor() { }
 
   ngOnInit(): void {
