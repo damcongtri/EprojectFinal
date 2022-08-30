@@ -88,15 +88,17 @@
 
 .product {
     overflow: hidden;
+    cursor: pointer;
 
 }
 
 .food-item {
     margin-bottom: 20px;
+
 }
 
 .product img {
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .product:hover img {
