@@ -29,6 +29,7 @@ p {
     padding: 10px 30px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .main-nav ul li::after {
