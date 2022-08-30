@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
 .owl-prev {
   z-index: 100;
 }
@@ -31,6 +32,7 @@
   transform: translateX(-50%);
   border: 4px solid #fff;
   z-index: 100;
+  justify-content: space-between;
 }
 
 .ticket-text {
@@ -39,6 +41,7 @@
   margin-left: 40px;
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .ticket a {
@@ -82,6 +85,7 @@
   .buy-ticket {
     width: 500px;
     height: 100px;
+   
   }
 
   .ticket {
@@ -111,6 +115,7 @@
     left: 50%;
     transform: translateX(-50%);
     border: 4px solid #fff;
+    
   }
 
   .ticket-text {
@@ -524,14 +529,11 @@
 
 .actraction h5 {
   font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
   margin-top: 17px;
-
+  
 }
 
 .actraction p {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: -7px;
   color: #5f707f;
 }
 
@@ -554,14 +556,11 @@ span .fa-clock {
 
 .text-color {
   color: #7d8f9e;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .day p {
   color: #01173c;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 17px;
-  font-weight: bold;
 
 }
 
@@ -611,7 +610,6 @@ span .fa-clock {
 .flip-box-back {
   background-color: #DAEAF1;
   color: #000;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flip-box-back .card-text {
@@ -763,3 +761,19 @@ p , span {
   font-family: 'Open Sans', sans-serif;
 }
 
+.text-color {
+  font-family: 'Quicksand', sans-serif;
+}
+.day p {
+  font-family: 'Quicksand', sans-serif;
+}
+.card-title {
+  font-family: 'Rubik Dirt', cursive;
+  
+}
+.card-text {
+  font-family: 'Quicksand', sans-serif;
+}
+h5 , span {
+  font-family: 'Quicksand', sans-serif;
+}
