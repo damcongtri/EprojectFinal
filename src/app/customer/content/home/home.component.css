@@ -1,3 +1,4 @@
+
 .owl-prev {
   z-index: 100;
 }
@@ -491,6 +492,7 @@
 
 .circular-water:hover {
   background-color: #ff550a;
+  transition: 2s;
 }
 
 .circular-water a {
@@ -676,3 +678,82 @@ span .fa-clock {
     height: auto;
   }
 }
+@media screen and (max-width :767px) {
+  .translation {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width :1400px) {
+  .card-img1 {
+    width: 100%;
+    height: 830px;
+    padding: 5px 0px;
+  }
+  .actraction h5{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width :1200px) {
+  .card-img1 {
+    width: 100%;
+    height: 820px;
+    padding: 5px 0px;
+  }
+  .actraction h5{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width:550px) {
+  .card-img1{
+    width: 100%;
+    height: 600px;
+  }
+  .event-text h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width:376px) {
+  .card-img1{
+    width: 100%;
+    height: 500px;
+  }
+}
+@media screen and (max-width:325px) {
+  .card-img1{
+    width: 100%;
+    height: 400px;
+  }
+  .event-text h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:700px) {
+  .event-text h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width:769px) {
+  .actraction h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .translation {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width:991px) {
+  .actraction h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .translation {
+    justify-content: space-around;
+  }
+}
+
+
+

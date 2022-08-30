@@ -145,6 +145,7 @@
 .form-item {
     width: 50%;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .form-item label {
@@ -159,6 +160,7 @@
 .form-item select {
 
     padding: 2px 30px;
+   
 }
 
 .premium .btn-book:hover {
@@ -171,3 +173,121 @@
 .form-ticket {
     margin-top: 50px;
 }
+.booking-now button{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 7px;
+    background-color: #ffc107;
+    border: navajowhite;
+    color: #ffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.booking-now button:hover {
+    background-color: #2d3142;
+    transition: 1s;
+    
+}
+.booking-now {
+    padding: 8px;
+    margin-left: 17px;
+}
+.form-item input {
+    width: 100%;
+    padding: 10px 20px;
+    max-width: 100%;
+    border: 1px solid #101010;
+    border-radius: 2px;
+}
+.form-item select {
+    width: 100%;
+    padding: 10px 18px;
+    max-width: 100%;
+    border: 1px solid #101010;
+    border-radius: 2px;
+}
+.form-item select option {
+    width: 100%;
+    padding: 10px 0px;
+    max-width: 100%;
+    border: 1px solid #101010;
+    border-radius: 2px;
+}
+.form-ticket {
+    background-image: url('https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/multiracial-friends-playing-arcade-game-at-amusement-park.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.color-right{
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: 500;
+
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    
+}
+.content-right{
+    color: #fff;
+}
+.content-right h1 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-ticket{
+    position: relative;
+}
+.bg-ticket{
+    background-color: #191b27f7;
+    padding: 50px 0;
+}
+.left-form{
+    background-color: #fff;
+    padding: 40px 20px;
+}
+span .fa-clock {
+    color: #ffc107;
+    margin-right: 7px;
+}
+.hours-item {
+    border-bottom: 1px solid #2D3142;
+    padding: 15px;
+} 
+.info-item .fa-envelope {
+    font-size: 30px;
+    padding-top: 45px;
+    color: #ffc107;
+    
+} 
+.info-item .fa-phone {
+    font-size: 25px;
+    padding-top: 45px;
+    color: #ffc107;
+   
+} 
+.texts-info {
+    padding: 20px;
+}
+.info {
+    margin-left: 40px;
+}
+.content-right {
+    margin-left: 40px;
+}
+.texts-info h3 {
+    font-size: 20px;
+}
+.content-right h3 {
+    font-size: 23px;
+}
+.content-right p {
+    padding: 15px 0px;
+}
+/* @media screen and (max-width: ){
+    
+} */
