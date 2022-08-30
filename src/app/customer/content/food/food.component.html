@@ -4,108 +4,22 @@
             food court
         </span>
     </div>
+    <div class="text-content-food">
+        <h3>Explore Dreamland Park Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et modi ratione exercitationem, tenetur
+            illo
+        </p>
+    </div>
     <div class="content">
         <div class="container">
             <div class="row">
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
+                <div class="food-item col-lg-3 col-md-4 col-sm-6 " *ngFor="let item of list">
                     <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
+                        <img class="card-img-top" src="{{item.image}}" alt="">
                         <div class="card-body text-content">
                             <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item col-lg-3 col-md-4 col-sm-6">
-                    <div class="card product">
-                        <img class="card-img-top"
-                            src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3.jpg" alt="">
-                        <div class="card-body text-content">
-                            <div class="text-product">
-                                <h4 class="card-title">Pink Smoothie</h4>
-                                <p class="card-text">Shake, Smoothie</p>
+                                <h4 class="card-title">{{item.name}}</h4>
+                                <p class="card-text">{{item.text}}</p>
                             </div>
 
                         </div>

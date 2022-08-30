@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Hearth Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop4a-1-610x880.jpg",
+        "content": "Ice Cream, Shake"
+    },
+    {
+        "id": 2,
+        "name": "Fresh Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop3a-1-610x880.jpg",
+        "content": "Shake"
+    },
+    {
+        "id": 3,
+        "name": "White Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop2a-1-610x880.jpg",
+        "content": "Ice Cream, Shake"
+    },
+    {
+        "id": 4,
+        "name": "Milk Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop6a-1-610x880.jpg",
+        "content": "Shake"
+    },
+    {
+        "id": 5,
+        "name": "Bilberry Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop5a-1-610x880.jpg",
+        "content": "Ice Cream, Shake"
+    },
+    {
+        "id": 6,
+        "name": "Berry Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop7a-1-610x880.jpg",
+        "content": "Shake, Smoothie"
+    },
+    {
+        "id": 7,
+        "name": "Pink Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop1a-3-610x880.jpg",
+        "content": "Shake, Smoothie"
+    },
+    {
+        "id": 8,
+        "name": "Ice Cream Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop8a-1-610x880.jpg",
+        "content": "Shake, Smoothie"
+    },
+    {
+        "id": 9,
+        "name": "Orange Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop9a-2-610x880.jpg",
+        "content": "Shake"
+    },
+    {
+        "id": 10,
+        "name": "Kiwi Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop12a-1-610x880.jpg",
+        "content": "Shake, Smoothie"
+    },
+    {
+        "id": 11,
+        "name": "Colorful Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop10a-1-610x880.jpg",
+        "content": "Shake, Smoothie"
+    },
+    {
+        "id": 12,
+        "name": "Mixed Smoothie",
+        "image": "https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/shop11a-1-610x880.jpg",
+        "content": "Shake, Smoothie"
+    }
+]

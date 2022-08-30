@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/service/data.service';
 
 @Component({
   selector: 'app-food',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./food.component.css']
 })
 export class FoodComponent implements OnInit {
-
-  constructor() { }
+  list: any
+  constructor(private service: DataService) { }
 
   ngOnInit(): void {
+    this.service.getFood().subscribe(data => {
+      this.list = data
+    })
   }
 
 }

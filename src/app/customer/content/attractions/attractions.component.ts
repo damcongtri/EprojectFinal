@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/service/data.service';
 
 @Component({
   selector: 'app-attractions',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./attractions.component.css']
 })
 export class AttractionsComponent implements OnInit {
-
-  constructor() { }
+  list: any
+  constructor(private service: DataService) { }
 
   ngOnInit(): void {
+    this.service.getAttraction().subscribe(data => {
+      this.list = data
+      console.log(data);
+
+    })
   }
 
 }

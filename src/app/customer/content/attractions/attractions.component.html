@@ -14,90 +14,14 @@
         <div class="content-images">
             <div class="container">
                 <div class="row">
-                    <div class="image-attraction col-lg-4">
+                    <div class="image-attraction col-lg-4 " *ngFor="let item of list">
                         <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
+                            <img src="{{item.image}}" alt="">
                         </div>
                         <span class="image-text">
                             <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
-                            </div>
-                        </span>
-                        <div class="btn-image">
-                            <a>Book Now</a>
-                        </div>
-                    </div>
-                    <div class="image-attraction col-lg-4">
-                        <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
-                        </div>
-                        <span class="image-text">
-                            <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
-                            </div>
-                        </span>
-                        <div class="btn-image">
-                            <a>Book Now</a>
-                        </div>
-                    </div>
-                    <div class="image-attraction col-lg-4">
-                        <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
-                        </div>
-                        <span class="image-text">
-                            <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
-                            </div>
-                        </span>
-                        <div class="btn-image">
-                            <a>Book Now</a>
-                        </div>
-                    </div>
-                    <div class="image-attraction col-lg-4">
-                        <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
-                        </div>
-                        <span class="image-text">
-                            <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
-                            </div>
-                        </span>
-                        <div class="btn-image">
-                            <a>Book Now</a>
-                        </div>
-                    </div>
-                    <div class="image-attraction col-lg-4">
-                        <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
-                        </div>
-                        <span class="image-text">
-                            <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
-                            </div>
-                        </span>
-                        <div class="btn-image">
-                            <a>Book Now</a>
-                        </div>
-                    </div>
-                    <div class="image-attraction col-lg-4">
-                        <div class="image">
-                            <img src="https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/roller-coaster-with-sunshine-e1645720358872.jpg"
-                                alt="">
-                        </div>
-                        <span class="image-text">
-                            <div class="text-block">
-                                <h3>Roller Coaster</h3>
-                                <span>content</span>
+                                <h3>{{item.name}}</h3>
+                                <span>{{item.content}}</span>
                             </div>
                         </span>
                         <div class="btn-image">
