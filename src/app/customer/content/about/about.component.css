@@ -10,11 +10,24 @@
 
 .banner-about {
     margin-top: 100px;
+   
+  
 }
-
+.contact {
+    background-color: #F2FDFF;
+    padding: 50px 0;
+   
+}
+.contact-left>div{
+    padding: 10px 0px ;
+}
 .content-ticket {
     font-family: 'Quicksand', sans-serif;
 }
+.information h3{
+  padding-bottom: 10px;
+}
+
 
 .banner span {
     font-family: 'Rubik Dirt', cursive;
@@ -31,3 +44,49 @@
     /* font-family: 'Secular One', sans-serif; */
     letter-spacing: 0.6px;
 }
+.form-contact {
+    width: 100%;
+    padding: 20px 10px;
+}
+.form-contact input {
+    display: block;
+    width: 100%;
+    padding: 15px 15px ;
+    border: none;
+    border: 1px solid gray;
+}
+.get-in h4{
+    color: #11c5dd;
+}
+.information h3 {
+    color: #01173c;
+}
+.left-add .fa-location-dot {
+    font-size: 50px;
+    color: #11c5dd;
+}
+.right-add .fa-address-card {
+    font-size: 50px;
+    color: #11c5dd;
+}
+.social-network .fa-brands {
+    font-size: 30px;
+    color: #11c5dd;
+    padding:  0px 10px;
+}
+.net-work {
+    padding-top: 20px;
+}
+.contact-information button {
+    max-width: 100%;
+    padding: 20px 0px;
+    width: 200px;
+    display: block;
+    background-color: #11c5dd;
+    border: none;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+
+
+
