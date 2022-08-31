@@ -11,13 +11,13 @@ export class BuyTicketComponent implements OnInit {
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
-      if (document.documentElement.scrollTop > 300) {
+      if (document.documentElement.scrollTop > 200) {
         document.getElementById('scroll1')?.classList.add('scroll-show')
         document.getElementById('scroll2')?.classList.add('scroll-show')
         document.getElementById('scroll3')?.classList.add('scroll-show')
       }
     })
   }
-  
+
 
 }
