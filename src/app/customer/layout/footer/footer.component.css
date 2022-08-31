@@ -1,0 +1,59 @@
+.start_footer{
+    display: flex;
+}
+h1{
+    cursor: pointer;
+}
+h1:hover{
+    color: orange;
+    transition: 1s;
+}
+.start_left_footer{
+    padding: 100px;
+    width: 60%; 
+}
+.start_right_footer{
+    padding: 100px;
+    width: 40%;
+}
+.start_right_footer ul li:hover a{
+    color: orange;
+    transition: 0.75s;
+}
+ul{
+    list-style: none;
+}
+.start_right_footer ul li {
+    display: inline-block;
+ 
+}
+.start_right_footer ul li a{
+    padding: 30px;
+    
+}
+h3{
+    border-bottom: 1px solid black;
+    padding: 15px;
+    cursor: pointer;
+}
+.mid_footer{
+    display: flex;
+    padding: 80px;
+}
+.mid_footer ul li:hover a{
+    color:orange;   
+    text-decoration: none;
+}
+.end_footer ul li{
+    display: inline-block;
+    padding: 25px;
+    text-align: 10px;
+}
+.end_footer ul li:hover a{
+    color:orange;
+    text-decoration: none;
+}
+.note{
+    width: 50%;
+    padding: 80px;
+}

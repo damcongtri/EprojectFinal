@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+.banner {
+    position: relative;
+    background-image: url('https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/amusement-park-friends-enjoyment-lifestyle-concept-1.jpg');
+    /* background-image: linear-gradient(to right, rgba(227, 227, 100, 0.315) 10%, rgb(92, 92, 229) 70%); */
+    background-size: cover;
+    background-position: bottom;
+    height: 160px;
+}
+
+.banner-about {
+    margin-top: 100px;
+}
+
+.content-ticket {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner span {
+    font-family: 'Rubik Dirt', cursive;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* font-family: 'Secular One', sans-serif; */
+    letter-spacing: 0.6px;
+}
