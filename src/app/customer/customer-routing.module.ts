@@ -14,8 +14,6 @@ const routes: Routes = [
       { path: '', component: HomeComponent },
       { path: 'attractions', component: AttractionsComponent },
       { path: 'ticket', component: BuyTicketComponent },
-      { path: 'login', component: LoginComponent },
-      { path: 'register', component: RegisterComponent },
       { path: 'foods', component: FoodComponent }
     ])
   }

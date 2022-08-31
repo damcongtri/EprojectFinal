@@ -14,7 +14,6 @@ export class AttractionsComponent implements OnInit {
     this.service.getAttraction().subscribe(data => {
       this.list = data
       console.log(data);
-
     })
   }
 

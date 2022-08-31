@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+
 .owl-prev {
   z-index: 100;
 }
@@ -51,7 +52,8 @@
   top: 30px;
   right: 20px
 }
-.img-banner{
+
+.img-banner {
   height: 56vw;
 }
 
@@ -65,6 +67,8 @@
   border-radius: 50%;
   text-align: center;
   margin-left: 70px;
+
+
 }
 
 .ticket a {
@@ -85,7 +89,7 @@
   .buy-ticket {
     width: 500px;
     height: 100px;
-   
+
   }
 
   .ticket {
@@ -115,7 +119,7 @@
     left: 50%;
     transform: translateX(-50%);
     border: 4px solid #fff;
-    
+
   }
 
   .ticket-text {
@@ -167,7 +171,7 @@
 
   .text-water h3 {
     font-size: 18px;
-    font-family: 'Secular One', sans-serif ;
+    font-family: 'Secular One', sans-serif;
   }
 }
 
@@ -530,7 +534,7 @@
 .actraction h5 {
   font-size: 28px;
   margin-top: 17px;
-  
+
 }
 
 .actraction p {
@@ -610,6 +614,7 @@ span .fa-clock {
 .flip-box-back {
   background-color: #DAEAF1;
   color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flip-box-back .card-text {
@@ -680,6 +685,7 @@ span .fa-clock {
     height: auto;
   }
 }
+
 @media screen and (max-width :767px) {
   .translation {
     justify-content: space-around;
@@ -692,25 +698,30 @@ span .fa-clock {
     height: 830px;
     padding: 5px 0px;
   }
-  .actraction h5{
+
+  .actraction h5 {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width :1200px) {
   .card-img1 {
     width: 100%;
     height: 820px;
     padding: 5px 0px;
   }
-  .actraction h5{
+
+  .actraction h5 {
     font-size: 17px;
   }
 }
+
 @media screen and (max-width:550px) {
-  .card-img1{
+  .card-img1 {
     width: 100%;
     height: 600px;
   }
+
   .event-text h3 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -718,62 +729,75 @@ span .fa-clock {
 }
 
 @media screen and (max-width:376px) {
-  .card-img1{
+  .card-img1 {
     width: 100%;
     height: 500px;
   }
 }
+
 @media screen and (max-width:325px) {
-  .card-img1{
+  .card-img1 {
     width: 100%;
     height: 400px;
   }
+
   .event-text h3 {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width:700px) {
   .event-text h3 {
     font-size: 25px;
     margin-bottom: 5px;
   }
 }
+
 @media screen and (max-width:769px) {
   .actraction h5 {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  .translation {
-    justify-content: space-around;
-  }
-}
-@media screen and (max-width:991px) {
-  .actraction h5 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
+
   .translation {
     justify-content: space-around;
   }
 }
 
-p , span {
+@media screen and (max-width:991px) {
+  .actraction h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .translation {
+    justify-content: space-around;
+  }
+}
+
+p,
+span {
   font-family: 'Open Sans', sans-serif;
 }
 
 .text-color {
   font-family: 'Quicksand', sans-serif;
 }
+
 .day p {
   font-family: 'Quicksand', sans-serif;
 }
+
 .card-title {
   font-family: 'Rubik Dirt', cursive;
-  
+
 }
+
 .card-text {
   font-family: 'Quicksand', sans-serif;
 }
-h5 , span {
+
+h5,
+span {
   font-family: 'Quicksand', sans-serif;
 }

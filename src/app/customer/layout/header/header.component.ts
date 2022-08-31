@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   check: boolean = false
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
@@ -23,6 +24,9 @@ export class HeaderComponent implements OnInit {
         this.check = false
       }
 
+    })
+    document.getElementById('user')?.addEventListener('click', () => {
+      this.router.navigate(['user/login'])
     })
 
   }
