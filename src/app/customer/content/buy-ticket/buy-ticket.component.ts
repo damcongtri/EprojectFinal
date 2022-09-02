@@ -17,7 +17,10 @@ export class BuyTicketComponent implements OnInit {
         document.getElementById('scroll3')?.classList.add('scroll-show')
       }
     })
-  }
 
+  }
+  clickBooking() {
+    document.querySelector('.bg-ticket')?.scrollIntoView()
+  }
 
 }

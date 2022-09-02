@@ -187,17 +187,25 @@ textarea {
     padding: 10px 7px;
     background-color: #ffc107;
     border: navajowhite;
-    color: #ffff;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
+
 }
 
 .booking-now button:hover {
+    color: #fff;
     background-color: #2d3142;
-    transition: 1s;
+    transition: 0.5s;
 
+
+}
+
+input,
+textarea,
+select {
+    outline: none;
 }
 
 .booking-now {

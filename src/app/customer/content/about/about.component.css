@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap');
+
 .banner {
     position: relative;
     background-image: url('https://templatekit.jegtheme.com/dreamland/wp-content/uploads/sites/237/2022/02/amusement-park-friends-enjoyment-lifestyle-concept-1.jpg');
@@ -10,22 +11,26 @@
 
 .banner-about {
     margin-top: 100px;
-   
-  
+
+
 }
+
 .contact {
     background-color: #F2FDFF;
     padding: 50px 0;
-   
+
 }
-.contact-left>div{
-    padding: 10px 0px ;
+
+.contact-left>div {
+    padding: 10px 0px;
 }
+
 .content-ticket {
     font-family: 'Quicksand', sans-serif;
 }
-.information h3{
-  padding-bottom: 10px;
+
+.information h3 {
+    padding-bottom: 10px;
 }
 
 
@@ -44,43 +49,52 @@
     /* font-family: 'Secular One', sans-serif; */
     letter-spacing: 0.6px;
 }
+
 .form-contact {
     width: 100%;
     padding: 20px 10px;
 }
+
 .form-contact input {
     display: block;
     width: 100%;
-    padding: 15px 15px ;
+    padding: 15px 15px;
     border: none;
     border: 1px solid gray;
 }
-.get-in h4{
+
+.get-in h4 {
     color: #11c5dd;
 }
+
 .information h3 {
     color: #01173c;
 }
+
 .left-add .fa-location-dot {
     font-size: 50px;
     color: #11c5dd;
 }
+
 .right-add .fa-address-card {
     font-size: 50px;
     color: #11c5dd;
 }
+
 .social-network .fa-brands {
     font-size: 30px;
     color: #11c5dd;
-    padding:  0px 10px;
+    padding: 0px 10px;
 }
+
 .net-work {
     padding-top: 20px;
 }
+
 .contact-information button {
     max-width: 100%;
-    padding: 20px 0px;
-    width: 200px;
+    padding: 15px 30px;
+    /* width: 00px; */
     display: block;
     background-color: #11c5dd;
     border: none;
@@ -88,5 +102,50 @@
     margin-left: 10px;
 }
 
+textarea {
+    padding: 15px;
+}
 
+.information p {
+    padding: 10px 0 20px 0;
+}
 
+.net-work {
+    margin-top: 30px;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+h4,
+h3,
+p,
+input::placeholder,
+button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.left {
+    width: 60px;
+}
+
+.right {
+    padding-left: 10px;
+}
+
+.right h3 {
+    font-size: 22px;
+}
+
+.btn-send {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-send:hover {
+    color: black;
+    transform: translateY(-5px);
+    background-color: #ffc107 !important;
+}

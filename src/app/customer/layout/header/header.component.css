@@ -94,6 +94,11 @@ p {
     display: block !important;
 }
 
+.user a:hover {
+    cursor: pointer;
+    color: #ffc107 !important;
+}
+
 /* responsive header */
 @media screen and (max-width: 1020px) {
     .main-nav {

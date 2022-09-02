@@ -18,7 +18,10 @@
     margin-top: 100px;
 }
 
-.content-ticket {
+.content-ticket,
+span,
+p,
+h4 , h2{
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -144,6 +147,10 @@
 .text-block {
     padding-left: 50px;
     height: 100%;
+}
+
+.text-block h3 {
+    font-size: 700;
 }
 
 .text-block span {
