@@ -641,6 +641,18 @@ span .fa-clock {
   margin-bottom: 24px;
 }
 
+.flip-box-back {
+  height: 100%;
+}
+
+.flip-box {
+  height: calc(30vw-100px);
+}
+
+.flip-box-front img {
+  height: 100%;
+}
+
 @media screen and (max-width:1024px) {
   .actraction h5 {
     font-size: 17px;
@@ -656,15 +668,11 @@ span .fa-clock {
 }
 
 @media screen and (max-width:769px) {
-  .flip-box-front {
-    top: 100px;
-  }
+  .flip-box-front {}
 }
 
 @media screen and (max-width:993px) {
-  .flip-box-front {
-    top: 50px;
-  }
+  .flip-box-front {}
 
   .card {
     background-color: none;
