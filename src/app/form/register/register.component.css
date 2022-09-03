@@ -7,23 +7,28 @@
 */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
-body, html {
-    font-family: 'Source Sans Pro', sans-serif;
-   
-    padding: 0;
-    margin: 0;
-  }
-  #particles-js {
-    position: relative;
-    width: 100%;
-    height: 900px;
-   /* background-image: url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp'); */
-   background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp') top center / cover no-repeat;
-  }
-  .box img {
-    margin-bottom: 30px;
-    margin-top: 10px;
-  }
+
+body,
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 1000px;
+  /* background-image: url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp'); */
+  background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('https://khoatranvn00.github.io/travelix/assets/images/bg_header.webp') top center / cover no-repeat;
+}
+
+.box img {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
 
 
 
@@ -84,6 +89,7 @@ body, html {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
 ::-webkit-input-placeholder {
   color: #565f79;
 }
@@ -103,7 +109,8 @@ a:hover {
 }
 
 label input[type="checkbox"] {
-  display: none; /* hide the default checkbox */
+  display: none;
+  /* hide the default checkbox */
 }
 
 /* style the artificial checkbox */
@@ -132,7 +139,7 @@ label input[type="checkbox"] {
   cursor: pointer;
   margin-top: 30px;
   margin-bottom: 20px;
-  margin: 30px auto 20px  auto;
+  margin: 30px auto 20px auto;
 }
 
 .btn1:hover {
@@ -153,7 +160,7 @@ label input[type="checkbox"] {
   right: 60px;
 }
 
-[type="checkbox"]:checked + span:before {
+[type="checkbox"]:checked+span:before {
   /* <-- style its checked state */
   font-family: FontAwesome;
   font-size: 15px;
@@ -175,25 +182,27 @@ label input[type="checkbox"] {
   font-size: 16px;
   cursor: pointer;
 }
-.typcn2 {
-   top: 50%;
-   right: 80px;
-   transform: translateY(-50%);
-    position: absolute;
-    color: #3b476b;
-    font-size: 16px;
-    cursor: pointer;
-  }
 
-  .typcn2.active {
-    color: #7f60eb;
-  }
+.typcn2 {
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  position: absolute;
+  color: #3b476b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.typcn2.active {
+  color: #7f60eb;
+}
 
 .typcn.active {
   color: #7f60eb;
 }
+
 .pwd2 {
-    position: relative;
+  position: relative;
 }
 
 .error {
@@ -227,6 +236,7 @@ label input[type="checkbox"] {
 .footer .fa {
   color: #7f5feb;
 }
+
 .form-login {
   top: 50px;
   left: 50%;
@@ -243,14 +253,17 @@ label input[type="checkbox"] {
   margin-top: 80px;
   padding: 30px 0px;
   max-width: 100%;
-  
+
 }
+
 .eye-pass {
   position: relative;
 }
+
 .eye-pass2 {
   position: relative;
 }
+
 @media screen and (max-width:376px) {
   .box label span {
     height: 16px;
@@ -264,6 +277,7 @@ label input[type="checkbox"] {
     max-width: 100%;
   }
 }
+
 @media screen and (max-width:326px) {
   .box label span {
     height: 16px;
@@ -277,5 +291,3 @@ label input[type="checkbox"] {
     max-width: 100%;
   }
 }
-
-

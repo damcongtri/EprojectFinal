@@ -1,32 +1,33 @@
 <body id="particles-js"></body>
-    <div class="animated bounceInDown">
-        <div class="container">
-         <div class="form-login">
-             <span class="error animated tada" id="msg"></span>
-          <form name="form1" class="box"  onsubmit="return checkStuff()" [formGroup]="FormValidate" (ngSubmit)="onSubmit()" >
-           <img src="https://keansburgamusementpark.com/wp-content/uploads/2015/02/kap_logo.png" width="100px" alt="">
-            <h5>Sign in to your account.</h5>
-           
-          <div class="form-group">
-            <input type="text" name="email" placeholder="Email" autocomplete="off" formControlName="email">
-            <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched)" class="text-danger">
-              <div *ngIf="f.email.errors?.['required']">
-                <small>E-mail cannot be empty</small>
-              </div>
-              <div *ngIf="f.email.errors?.['email']">
-                <small>Please supply a valid email address</small>
-              </div>
+<div class="animated bounceInDown">
+  <div class="container">
+    <div class="form-login">
+      <span class="error animated tada" id="msg"></span>
+      <form name="form1" class="box" onsubmit="return checkStuff()" [formGroup]="FormValidate" (ngSubmit)="onSubmit()">
+        <img src="https://keansburgamusementpark.com/wp-content/uploads/2015/02/kap_logo.png" width="100px" alt="">
+        <h5>Sign in to your account.</h5>
+
+        <div class="form-group">
+          <input type="text" name="email" placeholder="Email" autocomplete="off" formControlName="email">
+          <div *ngIf="f.email.invalid && (f.email.dirty || f.email.touched)" class="text-danger">
+            <div *ngIf="f.email.errors?.['required']">
+              <small>E-mail cannot be empty</small>
             </div>
-           
+            <div *ngIf="f.email.errors?.['email']">
+              <small>Please supply a valid email address</small>
+            </div>
           </div>
-          
-          
-          <div class="form-group">
-           <div class="eye-pass">
+
+        </div>
+
+
+        <div class="form-group">
+          <div class="eye-pass">
             <i class=" typcn typcn-eye fa-solid fa-eye" id="eye"></i>
-            <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off" formControlName="password">
-           </div>
-           <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" class="text-danger">
+            <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off"
+              formControlName="password">
+          </div>
+          <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" class="text-danger">
             <div *ngIf="f.password.errors?.['required']">
               <small>Passsword cannot be empty</small>
             </div>
@@ -34,35 +35,37 @@
               <small>Pssword is too weak</small>
             </div>
           </div>
+        </div>
+        <div class="form-group">
+          <div class="eye-pass2">
+            <input type="password" name="password" placeholder=" Confirm Passsword" id="pwd2" autocomplete="off"
+              formControlName="ConfirmPassword">
+            <i class=" typcn2 typcn-eye2  fa-solid fa-eye" id="eye2"></i>
           </div>
-           <div class="form-group">
-         <div class="eye-pass2">
-          <input type="password" name="password" placeholder=" Confirm Passsword" id="pwd2" autocomplete="off" formControlName="ConfirmPassword">
-          <i class=" typcn2 typcn-eye2  fa-solid fa-eye" id="eye2"></i>
-         </div>
-         <div *ngIf="f.ConfirmPassword.invalid && (f.ConfirmPassword.dirty || f.ConfirmPassword.touched)" class="text-danger">
-          <div *ngIf="f.ConfirmPassword.errors?.['required']">
-            <small>Passsword cannot be empty</small>
-          </div>
-          <div *ngIf="f.ConfirmPassword.errors?.['minlength']">
-            <small>Pssword is too weak</small>
+          <div *ngIf="f.ConfirmPassword.invalid && (f.ConfirmPassword.dirty || f.ConfirmPassword.touched)"
+            class="text-danger">
+            <div *ngIf="f.ConfirmPassword.errors?.['required']">
+              <small>Passsword cannot be empty</small>
+            </div>
+            <div *ngIf="f.ConfirmPassword.errors?.['minlength']">
+              <small>Pssword is too weak</small>
+            </div>
           </div>
         </div>
-           </div>
-           
-            <label>
-              <input type="checkbox">
-              <span></span>
-              <small class="rmb">Remember me</small>  
-            </label>
-            <a href="#" class="forgetpass">Forget Password?</a>
-            <input type="submit" value="Sign in" class="btn1">
-          </form>
-          <a href="" routerLink="/login">Have already an account ? Login here</a>
 
-         </div>
-        </div>
-        <!-- <div class="footer">
+        <label>
+          <input type="checkbox">
+          <span></span>
+          <small class="rmb">Remember me</small>
+        </label>
+        <a href="#" class="forgetpass">Forget Password?</a>
+        <input type="submit" value="Sign in" class="btn1">
+      </form>
+      <a href="" routerLink="/user/login">Have already an account ? Login here</a>
+
+    </div>
+  </div>
+  <!-- <div class="footer">
           <span>Made with <i class="fa fa-heart pulse"></i> <a href="https://www.google.de/maps/place/Augsburger+Puppenkiste/@48.360357,10.903245,17z/data=!3m1!4b1!4m2!3m1!1s0x479e98006610a511:0x73ac6b9f80c4048f"></a><a href="https://codepen.io/lordgamer2354">By Anees Khan</a></span>
         </div> -->
-    </div>
+</div>
