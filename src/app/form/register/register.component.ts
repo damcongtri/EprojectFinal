@@ -19,7 +19,11 @@ export class RegisterComponent implements OnInit {
 
   onSubmit(){
     if(!this.FormValidate.invalid){
-
+      let acc:any = [];
+      acc.push(this.FormValidate.value);
+      let data:any = JSON.stringify(acc);
+      localStorage.setItem('acc',data);
+      console.log(data);
     }
   }
   constructor() { }
@@ -51,6 +55,7 @@ export class RegisterComponent implements OnInit {
 
     }
   }
+ 
 
   
   

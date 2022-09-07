@@ -819,4 +819,22 @@ span {
 h5,
 span {
   font-family: 'Quicksand', sans-serif;
+
+}
+.clock {
+  margin-top: 1.5px;
+  margin-right: 7px;
+  color: #11c5dd;
+}
+@media screen and (max-width:320px) {
+  .time-day {
+    display: inline-block;
+  }
+}
+.actraction h5 {
+  font-size: 20px;
+}
+.actraction .fa-shop {
+    font-size: 50px;
+    color: #11c5dd;
 }
