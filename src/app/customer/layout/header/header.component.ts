@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
   check: boolean = false
   constructor(private router: Router) { }
-
+  checkUser: any
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
       if (document.documentElement.scrollTop > 100) {
@@ -25,10 +26,23 @@ export class HeaderComponent implements OnInit {
       }
 
     })
-    document.getElementById('user')?.addEventListener('click', () => {
-      this.router.navigate(['user/login'])
-    })
 
+    console.log(document.querySelector('.test'));
+
+
+    this.checkUser = JSON.parse(localStorage.getItem('user') as string) ?? null
+
+  }
+  logout() {
+    localStorage.removeItem('user')
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Logout Successful',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    this.checkUser = JSON.parse(localStorage.getItem('user') as string) ?? null
   }
   shownav() {
     if (this.check) {

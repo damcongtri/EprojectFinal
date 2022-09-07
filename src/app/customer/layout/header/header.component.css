@@ -99,6 +99,30 @@ p {
     color: #ffc107 !important;
 }
 
+.user-login {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.user-login:hover span {
+    display: block;
+}
+
+.user-login span:hover {
+    background-color: rgb(227, 225, 225);
+}
+
+.user-login span {
+    display: none;
+    position: absolute;
+    bottom: -90%;
+    padding: 3px 10px;
+    background-color: #d5d5d5;
+}
+
 /* responsive header */
 @media screen and (max-width: 1020px) {
     .main-nav {
